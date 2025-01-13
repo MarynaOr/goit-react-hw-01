@@ -1,0 +1,13 @@
+
+
+{
+    "username": "JohnDoe",
+    "tag": "@johndoe",
+    "location": "New York, USA",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "stats": {
+      "followers": 1500,
+      "views": 2400,
+      "likes": 350
+    }
+  }

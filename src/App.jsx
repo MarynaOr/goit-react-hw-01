@@ -1,16 +1,22 @@
 // import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import './App.css'
+import Profile from './components/Profile';
+import userData from './userData.json'
 
-function App() {
-  // const [count, setCount] = useState(0)
 
+const App = () => {
   return (
     <>
-      <h1>Hello</h1>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
     </>
-  )
-}
+  );
+};
 
 export default App
