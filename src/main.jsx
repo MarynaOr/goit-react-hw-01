@@ -5,7 +5,7 @@ import './index.css'
 
 import App from './App.jsx'
 
-import Profile from './components/Profile.jsx'
+// import Profile from './components/Profile/Profile.jsx'
 // import userData from "../userData.json";
 
 
@@ -15,7 +15,7 @@ import Profile from './components/Profile.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Profile />
+    {/* <Profile /> */}
     <App />
     {/* <userData /> */}
   </StrictMode>,
