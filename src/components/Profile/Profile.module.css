@@ -1,63 +1,53 @@
-.avatar{
-   width: 180px;
-   border-radius: 50%;
-   background-color: #242121;
+.avatar {
+  width: 180px;
+  border-radius: 50%;
+  background-color: #242121;
+  margin-top: 14px;
 }
 
-.profileCon{
-    min-width: 500px;
-    background-color: #eedada;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.profileCon {
+  min-width: 500px;
+  background-color: #eedada;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    border: 2px, solid, gray;
-
+  border: 2px, solid, gray;
 }
 
-.profleName{
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 18px;
+.profleName {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 18px;
 }
 
-.profleTag{
-    font-family: sans-serif;
-color: #999999;
-    
-    
+.profleTag {
+  font-family: sans-serif;
+  color: #999999;
 }
 
+.profleItem {
+  background-color: #d3ccf3;
+  border: 2px, solid, #746f6f;
 
-.profleItem{
-
-background-color: #d3ccf3;
-border: 2px, solid, #746f6f;
-
-    display: flex;
-    flex-direction: row;
-align-items: center;
-justify-content: center;
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.profleList{
-padding: 12px;
-    display: flex;
-    flex-direction: column;
+.profleList {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
-.profleA{
-    font-weight: 400;
-    color: #000000;
-
+.profleA {
+  font-weight: 400;
+  color: #000000;
 }
-.profleB{
-font-weight: 700;
-    color: #000000;
+.profleB {
+  font-weight: 700;
+  color: #000000;
 }
-
-
-
-

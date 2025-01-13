@@ -1,9 +1,8 @@
 // import { useState } from 'react'
 
-import './App.css'
-import Profile from './components/Profile/Profile';
-import userData from './userData.json'
-
+import "./App.css";
+import Profile from "./components/Profile/Profile";
+import userData from "./userData.json";
 
 const App = () => {
   return (
@@ -19,4 +18,4 @@ const App = () => {
   );
 };
 
-export default App
+export default App;
