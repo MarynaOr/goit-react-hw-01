@@ -1,0 +1,33 @@
+
+.tabCon{
+    display: flex;
+flex-direction: column;
+align-items: stretch;
+    background-color: #d1d1d1;
+
+
+
+}
+.tabTread{
+    background-color: #bebebe;
+
+}
+
+.taTr{
+    cursor: pointer;
+    border: 2px,solid, #444444;
+}
+.taTr:hover{
+    background-color: #bebebe;
+
+}
+
+
+
+
+
+
+
+
+
+
