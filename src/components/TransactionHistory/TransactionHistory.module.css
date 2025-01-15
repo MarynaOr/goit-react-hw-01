@@ -1,33 +1,20 @@
-
-.tabCon{
-    display: flex;
-flex-direction: column;
-align-items: stretch;
-    background-color: #d1d1d1;
-
-
-
+.tabCon {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #d1d1d1;
 }
-.tabTread{
-    background-color: #bebebe;
-
+.tabTread {
+  background-color: #bebebe;
 }
 
-.taTr{
-    cursor: pointer;
-    border: 2px,solid, #444444;
+.taTr {
+  cursor: pointer;
+  border: 2px, solid, #444444;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
-.taTr:hover{
-    background-color: #bebebe;
-
+.taTr:hover {
+  background-color: #bebebe;
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px bebebe;
 }
-
-
-
-
-
-
-
-
-
-

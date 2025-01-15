@@ -7,8 +7,8 @@ export default function TransactionHistory({ items }) {
         <thead className={s.tabTread}>
           <tr className={s.tab}>
             <th> Type </th>
-            <th > Amount </th>
-            <th > Currency </th>
+            <th> Amount </th>
+            <th> Currency </th>
           </tr>
         </thead>
 
@@ -16,9 +16,9 @@ export default function TransactionHistory({ items }) {
           {items.map(({ id, type, amount, currency }) => {
             return (
               <tr key={id} className={s.taTr}>
-                <td > {type} </td>
-                <td > {amount} </td>
-                <td > {currency} </td>
+                <td> {type} </td>
+                <td> {amount} </td>
+                <td> {currency} </td>
               </tr>
             );
           })}
