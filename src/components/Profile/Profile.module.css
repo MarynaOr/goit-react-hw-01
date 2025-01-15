@@ -6,7 +6,7 @@
 }
 
 .profileCon {
-  min-width: 500px;
+  min-width: 300px;
   background-color: #eedada;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
 .profleItem {
   background-color: #d3ccf3;
   border: 2px, solid, #746f6f;
-
+  padding: 0;
   display: flex;
   flex-direction: row;
   align-items: center;

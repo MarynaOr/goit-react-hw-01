@@ -1,0 +1,26 @@
+.friendItem {
+}
+
+.friendAvatar {
+  height: 48px;
+}
+
+.frItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  justify-content: center;
+}
+
+.frName {
+  border: 2px, solid, #6e6e6e;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.frName:hover {
+  background-color: #dbd9d9;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
